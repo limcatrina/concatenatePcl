@@ -6,7 +6,7 @@ Package is tested for Ubuntu 16.04, ROS-Kinetic
 
 ## Setting up the Code 
 ### Editing the number of frames
-The number of frames to combine can be adjusted in the concat_pcl.cpp file in the src folder. Search for the line below in the .cpp file. 
+The number of frames to combine can be adjusted in the concat_pcl.cpp file in the src folder. Search for the line below in the concat_pcl.cpp file. 
 ``
 const int frames = 10; //how many frames to combine
 ``
