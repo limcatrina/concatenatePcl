@@ -1,6 +1,4 @@
 # concatenatePCL 
-
-## Description
 This ROS package concatenates X number of pointclouds received from the sensor where X is an integer that can be modified. 
 It was created as the physical sensor on the drone sends frames at high frequency but does not pick up enough points in each frame. Messages from the sensor are combined using FIFO. 
 
